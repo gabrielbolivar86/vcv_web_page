@@ -4,21 +4,19 @@
     --color-primary-light: #00a2ff;
     --color-letters-1: #ffffff;
     --color-background-light: #fffccd;
-    --color-hover:rgb(255, 251, 0);
-    
-    
+    --color-hover:#fffb00;    
 }
 header{
-    background-color:var(--color-background);
-    text-align: center;
-    color: var(--color-letters-1) ;
-    height: 100px;
-    display:flex;
-    align-items: center;
-    justify-content: center;
+    width:100%;
 }
+.logo{
 
-  
+} 
+video{
+    width: 100%;
+    position: sticky;
+
+}
 .first_content{
     background-color: var(--color-background-light);
     align-content: center;
@@ -31,3 +29,8 @@ header{
     width:90%;
     padding: 5%;
 }
+@media(max-width:600px){
+    /* .logo{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    } */
